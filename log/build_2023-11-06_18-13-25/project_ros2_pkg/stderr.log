@@ -1,0 +1,15 @@
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In function ‘[01m[Kint uio_info_read_map_addr(XImage_processor_uio_info*, int)[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/project-ROS2-pkg/src/image_subscriber.cpp:198:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int*[m[K’, but argument 3 has type ‘[01m[Ku64*[m[K’ {aka ‘[01m[Klong unsigned int*[m[K’} [[01;35m[K-Wformat=[m[K]
+  198 |     ret = fscanf(fp, "0x[01;35m[K%x[m[K", [32m[K&info->maps[n].addr[m[K);
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K   [32m[K|[m[K
+      |                          [01;35m[K|[m[K   [32m[Ku64* {aka long unsigned int*}[m[K
+      |                          [01;35m[Kunsigned int*[m[K
+      |                         [32m[K%lx[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/project-ROS2-pkg/src/image_subscriber.cpp:350:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kwhile[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+  350 |             [01;35m[Kwhile[m[K(!ip_inst.IsReady);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/project-ROS2-pkg/src/image_subscriber.cpp:353:4:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kwhile[m[K’
+  353 |    [01;36m[KXImage_processor_Write_img_in_Words[m[K(&ip_inst, 0, in1, 16*16);
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

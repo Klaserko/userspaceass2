@@ -1,0 +1,10 @@
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/install/strip.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/install.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/list_install_components.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/rebuild_cache.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/edit_cache.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/test.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/image_subscriber.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/install/local.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/project_ros2_pkg_uninstall.dir
+/home/mp4d/ros2_ws/build/project_ros2_pkg/CMakeFiles/uninstall.dir
